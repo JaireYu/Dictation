@@ -41,7 +41,7 @@ label = tk.Label(window, width=20,bg="Honeydew", height=1, textvariable=var1, fo
 label.place(x=400, y=50, anchor="nw")
 
 var3=tk.StringVar()
-label2 = tk.Label(window, bg="yellow",width=65, height=12, textvariable=var3, font=ft4, anchor='nw')
+label2 = tk.Label(window, bg="#C7EDCC",width=65, height=12, textvariable=var3, font=ft4, anchor='nw')
 label2.place(x=400, y=150, anchor="nw")
 
 label3 = tk.Label(window, bg="yellow", font= ft6, width=8, height=1, text="学习模式", anchor='nw')
